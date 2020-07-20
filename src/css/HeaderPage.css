@@ -1,0 +1,85 @@
+.HeaderPage{
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.95);
+    /* background-color: #ffffff; */
+    box-shadow: 0 10px 33px rgba(0, 0, 0, 0.3);
+    color: #3c4858 !important;
+    z-index: 999;
+    padding: 10px 10px;
+    
+    
+}
+
+.HeaderPage h2{
+    color: #000000;
+    /* text-transform: uppercase; */
+    font-size: 26px;
+    padding: 10px;
+    animation: logo 5s ;
+  
+    font-weight: bold;
+   
+    font-family: 'Yellowtail', cursive;
+   
+}
+.HeaderPage .col-span-1{
+    text-align: left;
+}
+.HeaderPage nav{
+  text-align: right;
+}
+.HeaderPage ul{
+    position: relative;
+}
+.HeaderPage ul li{
+    list-style: none;
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+}
+.HeaderPage ul li a{
+    text-decoration: none;
+}
+
+.HeaderPage ul li a::after{
+    content: "";
+   position: absolute;
+    left: 0;
+    right: 0;
+    bottom:2px;
+    width: 50px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: transparent;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.HeaderPage ul li a:hover::after{
+    background-color: #f89d36;
+    width: 62%;
+}
+.topnav .logo{
+    float: left;
+}
+.navbar_head{
+    display: none;
+}
+
+
+@keyframes logo{
+   0%{
+    transform:translate3d(0px,0px,0px);
+        opacity: 0;
+    }
+    50%{
+        transform:translate3d(180px,0px,0px);
+        opacity: 1.3;
+
+    }
+    100%{
+        transform:translate3d(0px,0px,0px);
+       
+    }
+}

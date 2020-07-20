@@ -1,0 +1,52 @@
+  /* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+/* header */
+.HeaderPage .topnav .logo{
+    float: none;
+    text-align: left;
+}
+.HeaderPage ul {
+   text-align: left; 
+}
+.HeaderPage ul li{
+    display: block !important;
+}
+.logo_link{
+    text-align: left;
+    display: inline-block;
+}
+.navbar_head{
+    float: right;
+    display: block !important;
+}
+.navbar{
+    /* float:right ; */
+    font-size: 27px !important;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: #000000 !important;
+}
+.menu{
+    display: none;
+}
+.menu ul{
+    text-align: center;
+    padding-top: 29px;
+    font-size: 20px;
+}
+.HeaderPage ul li a:hover::after{
+    width: 10%;
+}
+
+    /* home page */
+    .HomeCarousel .cal1{
+        width: 100%;
+    }
+    .HomeCarousel .right-block{
+        text-align: center;
+    }
+    .HomeCarousel .left-block{
+        text-align: center;
+    }
+  }

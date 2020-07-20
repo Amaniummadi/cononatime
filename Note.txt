@@ -1,0 +1,49 @@
+https://www.smashingmagazine.com/2020/02/tailwindcss-react-project/
+
+-->  fellow this website to set the tailwindcss in react app
+
+
+npm i -S pure-react-carousel
+
+==> install this for carousel
+
+
+npm install react-number-format --save
+import NumberFormat from 'react-number-format';
+
+for react number
+
+
+**************
+for animated counter 
+
+yarn add react-countup
+
+import CountUp from 'react-countup';
+<CountUp
+  start={-875.039}
+  end={160527.012}
+  duration={2.75}
+  separator=" "
+  decimals={4}
+  decimal=","
+  prefix="EUR "
+  suffix=" left"
+  onEnd={() => console.log('Ended! 👏')}
+  onStart={() => console.log('Started! 💨')}
+>
+  {({ countUpRef, start }) => (
+    <div>
+      <span ref={countUpRef} />
+      <button onClick={start}>Start</button>
+    </div>
+  )}
+</CountUp>
+*****************
+
+
+styled components 
+
+npm install styled-components
+
+***********************
