@@ -15,7 +15,7 @@ function HomeCarousel() {
     
         
     },[]);
-   
+    
     return (
         <div className="HomeCarousel">
            
